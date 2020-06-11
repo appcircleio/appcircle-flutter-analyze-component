@@ -6,7 +6,7 @@ def get_env_variable(key)
 end
 
 ac_flutter_project_dir = get_env_variable("AC_FLUTTER_PROJECT_DIR") || abort('Missing Flutter project directory.')
-ac_flutter_analyze_extra_args = get_env_variable("AC_FLUTTER_ANALYZE_EXTRA_ARGS") || "--machine"
+ac_flutter_analyze_extra_args = get_env_variable("AC_FLUTTER_ANALYZE_EXTRA_ARGS") || ""
 
 def run_command(command)
     puts "@[command] #{command}"
