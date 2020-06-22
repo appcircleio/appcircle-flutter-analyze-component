@@ -1,6 +1,6 @@
 # Appcircle Flutter Analyze
 
-This component allows you to run `flutter analyze` command in your Flutter project.
+This component runs the `flutter analyze` command in your Flutter project. Please note that it requires a preceding Flutter Install step to run.
 
 
 Required Input Variables
