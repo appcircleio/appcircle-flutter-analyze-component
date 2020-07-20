@@ -9,7 +9,7 @@ ac_flutter_project_dir = get_env_variable("AC_FLUTTER_PROJECT_DIR") || abort('Mi
 ac_flutter_analyze_extra_args = get_env_variable("AC_FLUTTER_ANALYZE_EXTRA_ARGS") || ""
 
 def run_command(command)
-    puts "@[command] #{command}"
+    puts "@@[command] #{command}"
     status = nil
     stdout_str = nil
     stderr_str = nil
